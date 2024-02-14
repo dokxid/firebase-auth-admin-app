@@ -33,13 +33,15 @@ follow the instructions listed in `.env`:
 # rename this file (.env.example) to .env
 
 # put in ur secret firebase admin sdk json:
-# for reference: https://firebase.google.com/docs/admin/setup
 # formatted like this: path/to/serviceAccountKey.json
+# for reference: https://firebase.google.com/docs/admin/setup
 SECRET_PATH=
 
 # put in ur firebase emulator link
-# for reference: https://firebase.google.com/docs/emulator-suite
 # by default: FIREBASE_AUTH_EMULATOR_HOST="127.0.0.1:9099"
+# for reference: https://firebase.google.com/docs/emulator-suite
+# if u want to access ur production authentication db instead of your emulator,
+# comment this out:
 FIREBASE_AUTH_EMULATOR_HOST="127.0.0.1:9099"
 ```
 
